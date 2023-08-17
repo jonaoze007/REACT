@@ -1,0 +1,273 @@
+body{
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.Main{
+  margin: auto;
+  background-image: url('../src/images/No\ 2.png');
+  background-size: 100%;
+}
+
+.text-warning{
+  font-weight: bold;
+  font-style: normal;
+}
+
+.navbar{
+width: 100%;
+margin: 0px;
+justify-content: center;
+padding-top:0;
+}
+
+.nav-link {
+  color: #EF5906;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+
+.navbar-nav .nav-item{
+  margin-left: 3rem;
+  font-size: 15px;
+  text-align: right;
+  color: blue;
+}
+.Title {
+  padding-top: 15%;
+  padding-bottom: 23%;
+  text-align: center;
+}
+.Title h2, .Title p{
+  margin-left: 30px;
+  border: 20px;
+  color: white;
+}
+
+.Title h2{
+  font-size: 5rem;
+}
+
+.Title p{
+  line-height: 25px;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mybody{
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.myContainer{
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  color: #EF5906;
+  width: 80%;
+}
+
+.myContainer h1{
+  color:#EF5906;
+  font-weight: bold;
+}
+.myContainer .specific {
+  font-style: italic;
+  text-align: center;
+  
+}
+
+.myheader{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  vertical-align: top;
+  align-items: center;
+  align-content: center;
+  text-align: left;
+  background-color: black;
+  width: 1000px;
+  color: #fff;
+  /* border: 1px solid #c3c3c3;  */
+  height:150px; 
+}
+
+.myheader p{
+  font-size: small;
+  font-style: normal;
+  
+}
+
+.myimg{
+  float: left;
+  padding: 5px; 
+  padding-top: 8.5rem;
+}
+
+.myheadertxt{
+
+  
+  margin: 0;
+  padding-left: 2.8rem;
+  padding-top: 8.5rem;
+  padding-right: 3rem;
+  width: 400px;
+  height: 400px;
+  vertical-align: center;
+  font-size: small;
+  font-style: normal;
+}
+
+.myfooter{
+  margin: auto;
+  background-image: url("./images/desert.jpg");
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  vertical-align: middle;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: left;
+  width: 1000px;
+}
+.myfooter h1{
+  color: brown;
+  font-weight: bolder;
+}
+/* .showflex{
+  display: flex;
+} */
+.mysmalltxt{
+  vertical-align: middle;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  padding: 40px 40px;
+  /* border: 1px solid green; */
+  text-align: left;
+  /* background-image: url("./images/carsteering.jpg"); */
+ 
+}
+
+
+
+.maincontainer{
+  text-align: center;
+  
+  } 
+  
+  .firstrow{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  }
+  
+  .secondrow{
+  background: url("./image/image5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  /* margin-top: 15rem;  */
+  height:100vh;
+  padding-top: 20rem;
+  opacity: 0.75;
+  }
+  
+  .secondrow .btn{
+  padding: 8px 10px;
+  background-color: #ff8b7cd3;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  }
+  .secondrow .header{
+    color: white;
+  }
+  .secondrow .parag{
+    margin-top: 2rem;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+
+  .owl-carousel{
+    display:flex;
+    margin: 3rem;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+
+.container{
+    margin: auto;
+    width: 100%;
+    height: 600px;
+   
+    justify-content: center;
+    align-content: center;
+   
+
+}
+.style{
+   
+    padding: 30px;
+    border: 1px solid #7c7a7a;
+    border-radius: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    background-color: rgb(169, 12, 12);
+    
+    
+}
+  
+/* .owl-carousel{
+  margin: 3rem;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+
+.container{
+  margin: auto;
+  width: 800px;
+  height: 450px;
+  justify-content: center;
+  align-content: center;
+ 
+
+}
+.style{
+ 
+  padding: 30px;
+  border: 1px solid #7c7a7a;
+  border-radius: 2%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: rgb(169, 12, 12);
+  
+  
+} */
